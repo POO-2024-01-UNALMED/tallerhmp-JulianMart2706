@@ -26,6 +26,7 @@ class Futbolista(Persona, Deportista):
         return self.__piernaHabil
 
 
+
     def set_golesMarcados(self, golesMarcados: int):
         self.__golesMarcados = golesMarcados
 
